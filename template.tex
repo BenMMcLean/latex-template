@@ -1,0 +1,67 @@
+\newcommand{\pname}{}
+\newcommand{\ptitle}{\pname}
+\newcommand{\pauthor}{}
+\newcommand{\pdate}{}
+
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{pgfplots}
+\usepackage{pgfgantt}
+\usepackage{textcomp}
+\usepackage{microtype}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{siunitx}
+\usepackage{msc}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{makecell}
+\usepackage{mathtools}
+\bibliographystyle{agsm}
+\usepackage[margin=3cm]{geometry}
+\usepackage{ebproof}
+\usepackage{amssymb}
+\newcommand{\nothing}{\varnothing}
+\usepackage{listings}
+\usepackage{mathrsfs}
+\usepackage{stmaryrd}
+\usepackage{pdfpages}
+\usetikzlibrary{automata, positioning, arrows, shapes.geometric}
+
+\usepackage[hidelinks,pdftex,
+pdfauthor={\pauthor},
+pdftitle={\ptitle},
+pdfproducer={LaTeX with hyperref},
+pdfcreator={pdflatex}]{hyperref}
+
+
+\lhead{\pname}
+\rhead{}
+\cfoot{}
+\rfoot{Page \thepage}
+
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\newcommand\defeq{\stackrel{\mathclap{\normalfont\mbox{\small{def}}}}{=}}
+\newcommand{\llangle}{\langle\langle}
+\newcommand{\rrangle}{\rangle\rangle}
+
+\setlength{\parindent}{0pt}
+
+\pgfplotsset{compat=1.14}
+
+\renewcommand{\baselinestretch}{1.1}
+
+\pagestyle{fancy}
+\begin{document}
+	
+	\begin{center}
+		\Large\textbf{\pname}\\
+    \large\textbf{\pauthor}\\
+	\end{center}
+		
+\end{document}
